@@ -428,7 +428,7 @@ def joystick_background_loop():
                                 pygame_joystick_name = temp_joystick.get_name().lower()
                                 # pygame_guid = temp_joystick.get_guid() # May need parsing
 
-                                if "dualsense" in pygame_joystick_name or \
+                                if "edge" in pygame_joystick_name or \
                                    (joystick_vid_pid[0].lower() in pygame_joystick_name and \
                                     joystick_vid_pid[1].lower() in pygame_joystick_name): # Basic name check
                                     joystick = temp_joystick
